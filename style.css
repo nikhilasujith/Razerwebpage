@@ -1,0 +1,340 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.nav{
+    background-color: black;
+    height: 61px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom-style: solid ;
+    border-color:#44D62C;
+    
+
+}
+
+.logo img{
+    margin-top: 10px;
+}
+
+.navbar li{
+    display: inline;
+    padding:30px 35px 20px 30px;
+    color:#bbb;
+    font-family:Titillium Web;
+}
+.header-message{
+    height: 50px;
+    background-color:rgb(92, 89, 89);
+    margin-top: 0;
+    display: flex;
+    padding-left: 250px;
+}
+.header-message p{
+    color: white;
+    
+}
+.container-text{
+    text-align: center;
+}
+.container-1{
+    background: url("/razer/image/razerfirst.webp");
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+    object-fit: cover;
+    max-width: 600px;
+    margin: 0 auto;
+    height: 100%;
+
+}
+
+
+/* test */
+
+.hero-section {
+    background: url("/razer/image/razerfirst.webp");
+    color: #fff;
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+  
+  .hero-section .container {
+    max-width: 600px;
+    margin: 0 auto;
+    height: 100%;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-section p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  
+.container{
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+    
+}
+.item-1{
+    background-image: url("/razer/image/razerfirst.webp");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-bottom-style: solid;
+    border-color:#222;
+    border-width: 10px;
+}
+.item-text{
+    color: white;
+    font-family: "Anton", sans-serif;
+    /* font-family:Titillium Web; */
+    text-align: center;
+    padding-top: 40px;
+    line-height: 23px;
+}
+.item-text .heading{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.item-text .heading2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 29px;
+
+}
+.heading3{
+    font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  
+}
+.item-2{
+    background-image: url("/razer/image/hplap.webp");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-bottom-style: solid;
+    border-color:#222;
+    border-width: 10px;
+}
+.item-3{
+    background-image: url("/razer/image/razer3.webp");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-bottom-style: solid;
+    border-color:#222;
+    border-width: 10px;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.container1 .row1{
+    background-image: url("/razer/image/razer4.webp");
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 600px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-color:#222;
+    border-width: 10px;
+}
+.container1 .row2{
+    background-image: url("/razer/image/razer5.webp");
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 600px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-color:#222;
+    border-width: 10px;
+}
+
+.row1 .heading{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+}
+
+
+.heading3{
+    font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  
+}
+.sect-h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 35px;
+}
+.sect-h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18 px;
+
+}
+
+.sect-h3{
+    font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.container2 .row1{
+    background-image: url("/razer/image/razer6.webp");
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 600px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-color:#222;
+    border-width: 10px;
+}
+.container2 .row2{
+    background-image: url("/razer/image/razer7.webp");
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 600px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-color:#222;
+    border-width: 10px;
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.container3 .row1{
+    background-image: url("/razer/image/razer10.webp");
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 600px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-color:#222;
+    border-width: 10px;
+}
+.container3 .row2{
+    background-image: url("/razer/image/razer8.webp");
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 600px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-color:#222;
+    border-width: 10px;
+}
+
+/* footer */
+
+.footer {
+    padding: 50px 10% 10px;
+    background-color: black;
+    width: 100%;
+    font-family: Titillium Web;
+}
+
+.footer .row {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer .col {
+    flex-basis: 10%; /* Distribute the remaining 60% across 5 columns */
+    margin-bottom: 20px;
+    color: #b3b3b3;
+    font-size: 14px;
+}
+
+.footer .col.gamer {
+    flex-basis: 50%; /* Occupy 40% of the width */
+    display: flex;
+    align-items: center; /* Vertically center the text */
+    justify-content: center; /* Horizontally center the text */
+}
+
+.footer .col a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
+.socialmediaicon {
+    height: 1.75rem;
+    width: 1.75rem;
+}
+
+.footerhead {
+    font-size: 16px;
+    color: white !important;
+    font-weight: 400;
+}
+
+
+.gamer h3 {
+    color: #44D62C;
+    text-align: center;
+    font-size: 18px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    background-color: black; 
+}
+
+.footer-text {
+    color: white;
+    font-size: 12px;
+    margin: 0;
+}
+
+.change-location {
+    color: white;
+    font-size: 12px;
+    margin: 0;
+}
