@@ -43,7 +43,7 @@ body{
     text-align: center;
 }
 .container-1{
-    background: url("/razer/image/razerfirst.webp");
+    background: url("/image/razerfirst.webp");
     display: flex;
     width: 100%;
     height: 100%;
